@@ -6,16 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game</title>
 
-    <!-- CSS -->
+    <!-- CSS & STYLES -->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 
     <!-- JAVASCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
 
 </head>
 
 <body>
+
+    <header>
+
+        <div id="header-container">
+            <h1>Guess What Letter I'm Thinking Of</h1>
+        </div>
+
+    </header>
+
+    <section>
+
+        <div id="section-container">
+
+            <div class="grid-items">
+
+                <h2>Guesses This Round:</h2>
+
+                <p id="userGuesses"></p>
+
+            </div>
+
+            <div class="grid-items">
+
+                <h2>Guesses Left: <span id="guessesLeft">10</span></h2>
+
+                <h2>Wins: <span id="wins">0</span></h2>
+
+                <h2>Losses: <span id="losses">0</span></h2>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div id="footer-container">
+            <p>&copy; 2018</p>
+        </div>    
+
+    </footer>
     
 </body>
 
