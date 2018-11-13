@@ -1,0 +1,23 @@
+@media screen and (max-width: 710px) {
+    
+    /*
+    ==============================
+    BASIC SETUP
+    ==============================
+    */
+
+    #header-container,
+    #section-container,
+    #footer-container {
+        width: 100%;
+    }
+
+    /*
+    ==============================
+    SECTION
+    ==============================
+    */
+
+    #section-container {
+        grid-template-columns: 1fr;
+    }

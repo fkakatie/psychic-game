@@ -28,7 +28,7 @@ document.onkeyup = function(event) {
     else {
         // ANNOUNCES WIN IF USER GUESSES COMPUTER GUESS
         if (userGuess === computerChoice) {
-            alert("You win!")
+            alert("You win! It was " + userGuess + ".")
             wins++;
             document.getElementById('wins').innerHTML = wins;
             userGuesses = [];
@@ -41,7 +41,7 @@ document.onkeyup = function(event) {
         }
         // ANNOUNCES LOSS IF USER FAILS TO GUESS WITHIN 10 TRIES
         else if (guessesLeft < 2) {
-            alert("You lose!");
+            alert("You lose! It was " + computerChoice + ".");
             losses++;
             document.getElementById('losses').innerHTML = losses;
             userGuesses = [];

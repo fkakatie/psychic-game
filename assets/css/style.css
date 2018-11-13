@@ -23,6 +23,24 @@ h2 {
     font-size: 2.5em;
 }
 
+::selection {
+    background: #690;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #333; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff; 
+}
+
 /*
 ==============================
 HEADER
@@ -32,11 +50,12 @@ HEADER
 header {
     background: #333;
     padding: 30px;
+    text-align: center;
 }
 
 #header-container {
     width: 100%;
-    max-width: 768px;
+    max-width: 710px;
     margin: 0 auto;
 }
 
@@ -52,7 +71,7 @@ section {
 
 #section-container {
     width: 100%;
-    max-width: 768px;
+    max-width: 710px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -82,6 +101,6 @@ footer {
 
 #footer-container {
     width: 100%;
-    max-width: 768px;
+    max-width: 710px;
     margin: 0 auto;   
 }
